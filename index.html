@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boathah Sebbah - Petualangan Pendakian Gunung</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-mountain"></i>
+                <div class="logo-text">Boathah <span>Sebbah</span></div>
+            </div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </label>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#gunung">Gunung</a></li>
+                    <li><a href="#persiapan">Persiapan</a></li>
+                    <li><a href="#artikel">Artikel</a></li>
+                    <li><a href="#testimoni">Testimoni</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Jelajahi Puncak dengan Boathah Sebbah</h1>
+                <p>Temukan gunung-gunung menakjubkan dan pengalaman pendakian yang tak terlupakan di Indonesia. Dari puncak tertinggi hingga jalur tersembunyi.</p>
+                <div class="hero-buttons">
+                    <a href="#gunung" class="btn">Jelajahi Gunung</a>
+                    <a href="#persiapan" class="btn btn-secondary">Persiapan Pendakian</a>
+                </div>
+            </div>
+        </div>
+        <a href="#gunung" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- Gunung Section -->
+    <section id="gunung" class="gunung">
+        <div class="container">
+            <div class="section-title">
+                <h2>Gunung Populer</h2>
+                <p>Jelajahi gunung-gunung terbaik di Indonesia dengan pemandangan yang menakjubkan dan tantangan yang memacu adrenalin</p>
+            </div>
+            <div class="gunung-grid">
+                <div class="gunung-card">
+                    <div class="card-image">
+                        <img src="c:\Users\STUDENT\Downloads\685a287262176605968863.webp" alt="Gunung Rinjani">
+                        <div class="card-badge">Populer</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Gunung Rinjani</h3>
+                        <div class="card-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Lombok, NTB</span>
+                            <span><i class="fas fa-mountain"></i> 3,726 mdpl</span>
+                            <span><i class="fas fa-clock"></i> 2-4 Hari</span>
+                        </div>
+                        <p>Gunung berapi aktif dengan danau kawah Segara Anak yang menakjubkan. Pendakian membutuhkan 2-4 hari dengan medan yang menantang.</p>
+                        <div class="card-footer">
+                            <div class="difficulty">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <a href="#" class="btn-small">Detail Pendakian</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gunung-card">
+                    <div class="card-image">
+                        <img src="c:\Users\STUDENT\Downloads\051644500_1437558393-20150722-Gunung-berstatus-waspada-Indonesia-Gunung-Semeru.jpg" alt="Gunung Semeru">
+                        <div class="card-badge">Menantang</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Gunung Semeru</h3>
+                        <div class="card-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Jawa Timur</span>
+                            <span><i class="fas fa-mountain"></i> 3,676 mdpl</span>
+                            <span><i class="fas fa-clock"></i> 2-3 Hari</span>
+                        </div>
+                        <p>Gunung tertinggi di Pulau Jawa dengan puncak Mahameru. Dikenal dengan letusan kecilnya yang rutin dan pemandangan yang dramatis.</p>
+                        <div class="card-footer">
+                            <div class="difficulty">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <a href="#" class="btn-small">Detail Pendakian</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gunung-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Gunung Kerinci">
+                        <div class="card-badge">Tertinggi</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Gunung Kerinci</h3>
+                        <div class="card-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Jambi, Sumatera</span>
+                            <span><i class="fas fa-mountain"></i> 3,805 mdpl</span>
+                            <span><i class="fas fa-clock"></i> 2-3 Hari</span>
+                        </div>
+                        <p>Gunung berapi tertinggi di Indonesia dengan kawah yang masih aktif. Terletak di Taman Nasional Kerinci Seblat yang kaya akan biodiversitas.</p>
+                        <div class="card-footer">
+                            <div class="difficulty">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <a href="#" class="btn-small">Detail Pendakian</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Persiapan Section -->
+    <section id="persiapan" class="persiapan">
+        <div class="container">
+            <div class="section-title">
+                <h2>Persiapan Pendakian</h2>
+                <p>Persiapkan diri Anda dengan baik sebelum memulai petualangan pendakian gunung untuk pengalaman yang aman dan menyenangkan</p>
+            </div>
+            <div class="persiapan-content">
+                <div class="persiapan-text">
+                    <h3>Persiapan Sebelum Mendaki Gunung</h3>
+                    <p>Pendakian gunung membutuhkan persiapan fisik, mental, dan peralatan yang matang. Berikut beberapa tips penting sebelum memulai pendakian:</p>
+                    <div class="persiapan-list">
+                        <div class="persiapan-item">
+                            <div class="persiapan-icon">
+                                <i class="fas fa-hiking"></i>
+                            </div>
+                            <div class="persiapan-text">
+                                <h4>Persiapan Fisik</h4>
+                                <p>Lakukan latihan kardio dan kekuatan kaki minimal 2 minggu sebelum pendakian. Jalan kaki dengan beban ransel dapat membantu adaptasi.</p>
+                            </div>
+                        </div>
+                        <div class="persiapan-item">
+                            <div class="persiapan-icon">
+                                <i class="fas fa-campground"></i>
+                            </div>
+                            <div class="persiapan-text">
+                                <h4>Peralatan Mendaki</h4>
+                                <p>Bawa perlengkapan esensial: sepatu hiking, jaket, sleeping bag, tenda, headlamp, P3K, dan makanan berkalori tinggi.</p>
+                            </div>
+                        </div>
+                        <div class="persiapan-item">
+                            <div class="persiapan-icon">
+                                <i class="fas fa-cloud-sun"></i>
+                            </div>
+                            <div class="persiapan-text">
+                                <h4>Informasi Cuaca</h4>
+                                <p>Periksa prakiraan cuaca dan kondisi gunung sebelum berangkat. Hindari pendakian saat cuaca buruk atau musim hujan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="persiapan-image">
+                    <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Persiapan Pendakian">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Artikel Section -->
+    <section id="artikel" class="artikel">
+        <div class="container">
+            <div class="section-title">
+                <h2>Artikel Pendakian</h2>
+                <p>Tips, panduan, dan cerita pengalaman pendakian dari para ahli dan pendaki berpengalaman</p>
+            </div>
+            <div class="artikel-grid">
+                <article class="artikel-card">
+                    <div class="artikel-image">
+                        <img src="c:\Users\STUDENT\Downloads\jangan-dilanggar-6-hal-tabu-yang-tak-boleh-dilakukan-saat-naik-gunung-X9oz3ADrk9.jpg" alt="Tips Mendaki untuk Pemula">
+                    </div>
+                    <div class="artikel-content">
+                        <div class="artikel-meta">
+                            <span><i class="far fa-calendar"></i> 15 Nov 2025</span>
+                            <span><i class="far fa-user"></i> Pendaki Senior</span>
+                        </div>
+                        <h3>Tips Mendaki untuk Pemula</h3>
+                        <p>Bagi pendaki pemula, memilih gunung dengan tingkat kesulitan rendah sangat penting. Pelajari teknik pernapasan dan pacing yang benar untuk menghemat energi.</p>
+                        <a href="#" class="btn-small">Baca Selengkapnya</a>
+                    </div>
+                </article>
+                <article class="artikel-card">
+                    <div class="artikel-image">
+                        <img src="c:\Users\STUDENT\Downloads\pngtree-scaling-new-heights-rock-climbers-taking-on-a-steep-challenge-image_16354843.jpg" alt="Menghadapi Masalah Ketinggian">
+                    </div>
+                    <div class="artikel-content">
+                        <div class="artikel-meta">
+                            <span><i class="far fa-calendar"></i> 10 Nov 2025</span>
+                            <span><i class="far fa-user"></i> Dokter Pendakian</span>
+                        </div>
+                        <h3>Menghadapi Masalah Ketinggian</h3>
+                        <p>Altitude sickness dapat terjadi di ketinggian di atas 2,500 mdpl. Aklimatisasi yang cukup, hidrasi yang baik, dan turun ketinggian adalah cara mengatasi masalah ini.</p>
+                        <a href="#" class="btn-small">Baca Selengkapnya</a>
+                    </div>
+                </article>
+                <article class="artikel-card">
+                    <div class="artikel-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Pendakian Musim Dingin">
+                    </div>
+                    <div class="artikel-content">
+                        <div class="artikel-meta">
+                            <span><i class="far fa-calendar"></i> 5 Nov 2025</span>
+                            <span><i class="far fa-user"></i> Winter Climber</span>
+                        </div>
+                        <h3>Pendakian Musim Dingin: Persiapan Khusus</h3>
+                        <p>Pendakian musim dingin membutuhkan persiapan ekstra. Perlengkapan khusus seperti jaket anti-angin, crampon, dan ice axe diperlukan.</p>
+                        <a href="#" class="btn-small">Baca Selengkapnya</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni Section -->
+    <section id="testimoni" class="testimoni">
+        <div class="container">
+            <div class="section-title">
+                <h2>Testimoni Pendaki</h2>
+                <p>Pengalaman langsung dari para pendaki yang telah menggunakan panduan Boathah Sebbah</p>
+            </div>
+            <div class="testimoni-grid">
+                <div class="testimoni-card">
+                    <div class="testimoni-text">
+                        <p>Pengalaman mendaki Rinjani dengan panduan dari Boathah Sebbah sangat luar biasa. Semua persiapan dijelaskan dengan detail, dan tim support sangat responsif.</p>
+                    </div>
+                    <div class="testimoni-author">
+                        <div class="testimoni-avatar">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Ahmad Fauzi">
+                        </div>
+                        <div class="author-info">
+                            <h4>Ahmad Fauzi</h4>
+                            <p>Pendaki Rinjani</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimoni-card">
+                    <div class="testimoni-text">
+                        <p>Sebagai pendaki pemula, saya sangat terbantu dengan panduan lengkap dari Boathah Sebbah. Tips persiapan fisik dan peralatan sangat membantu kesuksesan pendakian pertama saya.</p>
+                    </div>
+                    <div class="testimoni-author">
+                        <div class="testimoni-avatar">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Diana Sari">
+                        </div>
+                        <div class="author-info">
+                            <h4>Diana Sari</h4>
+                            <p>Pendaki Pemula</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimoni-card">
+                    <div class="testimoni-text">
+                        <p>Website ini menjadi referensi utama saya sebelum setiap pendakian. Informasi tentang kondisi jalur dan cuaca selalu update, membuat perencanaan pendakian lebih matang.</p>
+                    </div>
+                    <div class="testimoni-author">
+                        <div class="testimoni-avatar">
+                            <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="Budi Santoso">
+                        </div>
+                        <div class="author-info">
+                            <h4>Budi Santoso</h4>
+                            <p>Pendaki Berpengalaman</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="kontak" class="kontak">
+        <div class="container">
+            <div class="section-title">
+                <h2>Kontak Kami</h2>
+                <p>Hubungi kami untuk informasi lebih lanjut atau jika Anda memiliki pertanyaan seputar pendakian gunung</p>
+            </div>
+            <div class="kontak-content">
+                <div class="kontak-info">
+                    <div class="kontak-item">
+                        <div class="kontak-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="kontak-text">
+                            <h4>Alamat</h4>
+                            <p>Basecamp: Bandung, Jawa Barat</p>
+                        </div>
+                    </div>
+                    <div class="kontak-item">
+                        <div class="kontak-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="kontak-text">
+                            <h4>Telepon</h4>
+                            <p>+62 812 3456 7890</p>
+                        </div>
+                    </div>
+                    <div class="kontak-item">
+                        <div class="kontak-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="kontak-text">
+                            <h4>Email</h4>
+                            <p>info@boathahsebbah.com</p>
+                        </div>
+                    </div>
+                    <div class="kontak-item">
+                        <div class="kontak-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="kontak-text">
+                            <h4>Jam Operasional</h4>
+                            <p>Senin - Jumat: 09:00 - 17:00</p>
+                            <p>Sabtu: 09:00 - 15:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="kontak-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="nama">Nama Lengkap</label>
+                            <input type="text" id="nama" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="gunung">Gunung yang Diminati</label>
+                            <select id="gunung" class="form-control">
+                                <option value="">Pilih Gunung</option>
+                                <option value="rinjani">Gunung Rinjani</option>
+                                <option value="semeru">Gunung Semeru</option>
+                                <option value="kerinci">Gunung Kerinci</option>
+                                <option value="lainnya">Lainnya</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="pesan">Pesan</label>
+                            <textarea id="pesan" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Boathah Sebbah</h3>
+                    <p>Komunitas pendakian gunung yang memberikan informasi lengkap tentang gunung-gunung di Indonesia dan tips pendakian untuk semua level.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-strava"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Navigasi Cepat</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#gunung">Gunung</a></li>
+                        <li><a href="#persiapan">Persiapan</a></li>
+                        <li><a href="#artikel">Artikel</a></li>
+                        <li><a href="#testimoni">Testimoni</a></li>
+                        <li><a href="#kontak">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Gunung Populer</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Gunung Rinjani</a></li>
+                        <li><a href="#">Gunung Semeru</a></li>
+                        <li><a href="#">Gunung Kerinci</a></li>
+                        <li><a href="#">Gunung Merbabu</a></li>
+                        <li><a href="#">Gunung Prau</a></li>
+                        <li><a href="#">Gunung Gede</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Berlangganan newsletter kami untuk mendapatkan update terbaru tentang pendakian gunung.</p>
+                    <form class="newsletter-form">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email Anda" required>
+                        </div>
+                        <button type="submit" class="btn btn-secondary">Berlangganan</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Boathah Sebbah - Komunitas Pendaki Gunung. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
